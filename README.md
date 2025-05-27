@@ -1,15 +1,17 @@
 # 🧠 Image Classification Using Convolutional Neural Networks (CNN)
+# 🧠 NEURAL-ART: Ghibli Style Transfer App 🎨  
+### ✨ Turn Your Photos into Magical Studio Ghibli Art
 
-This project implements an image classification system using a Convolutional Neural Network (CNN) built with TensorFlow and Keras. It classifies images from the CIFAR-10 dataset into 10 distinct categories, such as airplane, automobile, bird, cat, and more.
-
-## 📁 Dataset Used
-
-**CIFAR-10 Dataset**  
-- 60,000 color images (32x32 pixels)
-- 10 classes: Airplane, Automobile, Bird, Cat, Deer, Dog, Frog, Horse, Ship, Truck
-- Available directly via TensorFlow/Keras datasets
+Transform everyday images into stunning, stylized masterpieces using **Neural Style Transfer (NST)** powered by **Convolutional Neural Networks (CNNs)**. This web-based project uses **VGG19** to blend the **content of a real photo** with the **style of a Ghibli-style artwork** – a perfect fit for artists, designers, and anime enthusiasts.
 
 ---
+
+## 🖼️ Sample Results
+
+| 📷 Content Image | 🖌️ Style Image | 🎨 Stylized Output |
+|------------------|----------------|---------------------|
+| ![](images/content_sample.jpg) | ![](images/style_sample.jpg) | ![](images/output_sample.jpg) |
+
 
 ## 🧰 Technologies Used
 
@@ -23,14 +25,22 @@ This project implements an image classification system using a Convolutional Neu
 
 ## 🚀 Features
 
-- Preprocessing and normalization of image data
-- CNN architecture with convolutional, pooling, and dense layers
-- Training and evaluation on CIFAR-10 dataset
-- Visualization of training accuracy and loss
-- Prediction and visualization of sample test results
-- Model saving for deployment
+- Pre## 🚀 Features
 
----
+- 📂 Upload content & style images via UI
+- 🧠 Uses VGG19 for content & style extraction
+- ⚙️ Optimization via Adam and gradient descent
+- 💾 Saves output image locally
+- 🌐 Flask-based interactive web app
+
+## 🔍 How It Works
+
+1. Upload a **content image** (your photo)
+2. Upload a **style image** (Ghibli frame or painting)
+3. The app fuses them using:
+   - **Content Loss** from deep layers
+   - **Style Loss** using **Gram Matrices**
+4. The output is saved and previewed in your browser.
 
 ## 🛠️ Installation
 
