@@ -1,5 +1,5 @@
 # 🧠 Image Classification Using Convolutional Neural Networks (CNN)
-# 🧠 NEURAL-ART: Ghibli Style Transfer App 🎨  
+### 🧠 NEURAL-ART: Ghibli Style Transfer App 🎨  
 ### ✨ Turn Your Photos into Magical Studio Ghibli Art
 
 Transform everyday images into stunning, stylized masterpieces using **Neural Style Transfer (NST)** powered by **Convolutional Neural Networks (CNNs)**. This web-based project uses **VGG19** to blend the **content of a real photo** with the **style of a Ghibli-style artwork** – a perfect fit for artists, designers, and anime enthusiasts.
